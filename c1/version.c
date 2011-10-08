@@ -49,6 +49,7 @@ The program listing below will output values based on what your system supports.
 */
 #define _POSIX_SOURCE
 #define _POSIX_C_SOURCE 199309
+#define _POSIX2_C_VERSION 199309
 #include <unistd.h>
 #include <stdio.h> /* mjr */
 long val;
